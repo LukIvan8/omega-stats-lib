@@ -1,0 +1,32 @@
+{
+  "name": "omega-strikers",
+  "version": "1.0.5",
+  "description": "Omega Strikers API",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node tests/index",
+    "dev": "ts-node-dev --respawn -- src/index.ts"
+  },
+  "author": "nicaksks",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2",
+    "tsc": "^2.0.4",
+    "tsc-watch": "^6.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicaksks/OmegaStrikers"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^20.2.3",
+    "@typescript-eslint/parser": "^5.59.7",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
